@@ -6,11 +6,11 @@ result = client.tasks.create_task({
     "data": 
         {
         "approval_status": "pending",
-        "assignee": "12345",
+        "assignee": "Albert",
         "assignee_status": "upcoming",
         "completed": false,
         "completed_by": {
-        "name": "Greg Sanchez"
+        "name": "Albert E"
         },
         "custom_fields": {
         "4578152156": "Not Started",
@@ -31,7 +31,8 @@ result = client.tasks.create_task({
         "notes": "Mittens really likes the stuff from Humboldt.",
         "parent": "12345",
         "projects": [
-        "12345"
+        "Atom & Null"
+"
         ],
         "resource_subtype": "default_task",
         "start_on": "2019-09-14",
