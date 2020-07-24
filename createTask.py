@@ -2,8 +2,7 @@ import asana
 
 client = asana.Client.access_token('1/712677614983068:cea1a3725eb49ac9d21fd473066261e9')
 
-result = client.tasks.create_task(
-    {
+result = client.tasks.create_task({
     "data": 
         {
         "approval_status": "pending",
@@ -39,7 +38,7 @@ result = client.tasks.create_task(
         "tags": [
         "12345"
         ],
-        "workspace": "12345"
+        "workspace": "Atom and Null"
         }
     }
 }, opt_pretty=True)
