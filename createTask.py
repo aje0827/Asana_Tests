@@ -1,6 +1,6 @@
 import asana
 
-client = asana.Client.access_token('PERSONAL_ACCESS_TOKEN')
+client = asana.Client.access_token('1/712677614983068:cea1a3725eb49ac9d21fd473066261e9')
 
 result = client.tasks.create_task(
     {
